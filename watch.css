@@ -1,0 +1,199 @@
+/* Base Typography & Layout */
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9fafb;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  #site-logo img {
+    height: 32px;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .header a:hover {
+    color: white;
+    background-color: #0071e3;
+  }
+  
+  
+  /* Article Container */
+  article {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Headings */
+  h1 {
+    color: #1f2937;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #2563eb;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+  }
+  
+  /* Product Images */
+  .product-images {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .product-images img {
+    margin: 10px;
+    max-width: 100%;
+    max-height: 280px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  /* Ratings & Price */
+  .rating {
+    font-size: 1.5rem;
+    color: #f59e0b;
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #374151;
+  }
+  
+  /* Pros & Cons Section */
+  .pros-cons {
+    display: flex;
+    margin: 25px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .pros,
+  .cons {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .pros {
+    background-color: #ecfdf5;
+    border: 1px solid #a7f3d0;
+  }
+  
+  .cons {
+    background-color: #fef2f2;
+    border: 1px solid #fecaca;
+  }
+  
+  .pros h3,
+  .cons h3 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #1e293b;
+  }
+  
+  /* Buttons */
+  .buy-button,
+  .button {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    margin: 10px 0;
+  }
+  
+  .buy-button:hover,
+  .button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Meta & Taglines */
+  .author-info {
+    font-style: italic;
+    margin-top: 15px;
+    color: #6b7280;
+    font-size: 0.95rem;
+  }
+  
+  .tagline {
+    font-style: italic;
+    color: #6b7280;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-top: 60px;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Tweaks */
+  @media (max-width: 768px) {
+    .product-images img {
+      max-width: 100%;
+    }
+  
+    .pros-cons {
+      flex-direction: column;
+    }
+  
+    nav a {
+      display: inline-block;
+      margin: 8px;
+    }
+  
+    article {
+      padding: 20px;
+    }
+  }
+  
