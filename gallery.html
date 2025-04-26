@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Refined - Watch Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="site-header shadow-md">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <a href="home.html" class="logo-link">
+        <img src="imgs/time_refined.svg" alt="Time Refined Logo">
+      </a>
+      <nav class="main-nav">
+        <ul class="flex space-x-6">
+          <li><a href="home.html" class="text-gray-700 hover:text-blue-600 font-medium">Home</a></li>
+          <li><a href="reviews.html" class="text-gray-700 hover:text-blue-600 font-medium">Reviews</a></li>
+          <li><a href="gallery.html" class="text-gray-700 hover:text-blue-600 font-medium">Gallery</a></li>
+          <li><a href="about.html" class="text-gray-700 hover:text-blue-600 font-medium">About</a></li>
+          <li><a href="extra.html" class="text-gray-700 hover:text-blue-600 font-medium">Maintenance</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto mt-8 px-4">
+
+    <!-- Introduction -->
+    <section class="bg-white p-6 rounded-lg shadow mb-10">
+      <h1 class="text-3xl font-bold text-gray-900 mb-4">Watch Style Showcase</h1>
+      <p class="text-gray-700 mb-3">
+        Welcome to the Time Refined visual showcase! This gallery explores the vast spectrum of watch design, from purpose-built tool watches designed for demanding environments to refined dress watches epitomizing elegance. Our goal is to highlight the unique characteristics and appeal of various horological styles.
+      </p>
+      <p class="text-gray-700">
+        Below, discover curated collections grouped by category. 'Dive & Tool Watches' features robust timepieces known for functionality and durability, while 'Dress & Everyday Watches' presents options ranging from formal elegance to versatile daily wearers. Let these images inspire your appreciation for watchmaking artistry and help you find the perfect style for your wrist. Each watch tells a story through its design – explore them here.
+      </p>
+    </section>
+
+    <!-- Group 1: Dive & Tool Watches -->
+    <section class="bg-white p-6 rounded-lg shadow mb-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Group 1: Dive & Tool Watches</h2>
+      <p class="text-gray-700 mb-6">
+        Featuring watches built for specific functions or demanding conditions. Key traits include durability, high legibility, water resistance, and often, specialized bezels or complications.
+      </p>
+      <div class="gallery-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="gallery-item"><img src="imgs/rolex.png" alt="Classic dive watch example"></div>
+        <div class="gallery-item"><img src="imgs/khaki.avif" alt="Rugged field watch example"></div>
+        <div class="gallery-item"><img src="imgs/iwcchrono.jpg" alt="Pilot chronograph watch example"></div>
+        <div class="gallery-item"><img src="imgs/tagracing.jpg" alt="Racing chronograph example"></div>
+        <div class="gallery-item"><img src="imgs/nttd.webp" alt="Modern dive watch example"></div>
+        <div class="gallery-item"><img src="imgs/gmt.png" alt="GMT tool watch example"></div>
+      </div>
+      <p class="text-gray-700 mt-6">
+        Function often dictates form in this category, resulting in bold and practical designs.
+      </p>
+    </section>
+
+    <!-- Group 2: Dress & Everyday Watches -->
+    <section class="bg-white p-6 rounded-lg shadow mb-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Group 2: Dress & Everyday Watches</h2>
+      <p class="text-gray-700 mb-6">
+        Showcasing watches suitable for formal settings or versatile daily wear. Common features include cleaner dials, elegant case finishing, and often leather straps.
+      </p>
+      <div class="gallery-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div class="gallery-item"><img src="imgs/bregdress.avif" alt="Gold dress watch example"></div>
+        <div class="gallery-item"><img src="imgs/meister.png.crdownload" alt="Minimalist style watch example"></div>
+        <div class="gallery-item"><img src="imgs/seagull.jpg" alt="Vintage inspired dress watch"></div>
+        <div class="gallery-item"><img src="imgs/nomos.jpg" alt="Casual automatic watch example"></div>
+        <div class="gallery-item"><img src="imgs/jlc.jpg" alt="Classic dress watch example"></div>
+        <div class="gallery-item"><img src="imgs/tank.avif" alt="Everyday steel sports watch example"></div>
+      </div>
+      <p class="text-gray-700 mt-6">
+        Elegance and versatility are hallmarks of these styles. Pair them with the right strap using tips from our
+        <a href="extra.html" class="text-blue-600 hover:underline">maintenance guide</a>.
+      </p>
+    </section>
+
+    <!-- Watch Specification Examples -->
+    <section class="bg-white p-6 rounded-lg shadow mb-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Watch Specification Examples</h2>
+      <p class="text-gray-700 mb-4">Key specifications often define a watch's capabilities and character:</p>
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Watch Type</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Typical Movement</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Case Diameter Range</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Common Water Resistance</th>
+              <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Typical Crystal</th>
+            </tr>
+          </thead>
+          <tbody class="bg-white divide-y divide-gray-200">
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Dive Watch</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Automatic</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">40mm - 45mm</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">200m+</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Sapphire</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Dress Watch</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Quartz / Manual / Auto</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">36mm - 40mm</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">30m - 50m</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Sapphire / Mineral</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Field Watch</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Automatic / Quartz</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">38mm - 42mm</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">100m+</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Mineral / Sapphire</td>
+            </tr>
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Chronograph</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Automatic / Quartz</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">40mm - 44mm</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">50m - 100m+</td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Sapphire / Mineral</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-gray-500 mt-2">
+        *Specifications are typical examples and vary widely across models and brands.
+      </p>
+    </section>
+
+    <!-- Image Credits -->
+    <section class="bg-white p-6 rounded-lg shadow mb-10">
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Image Credits</h2>
+      <p class="text-gray-700 mb-4">
+        All non-original images used in this gallery are credited below. Click the link to view the official product page.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <a href="https://www.rolex.com/watches/submariner/m126619lb-0001.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Rolex Submariner Date “BLNR”
+        </a>
+        <a href="https://www.hamiltonwatch.com/en-us/h69439931-khaki-field-mechanical.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Hamilton Khaki Field Mechanical
+        </a>
+        <a href="https://www.iwc.com/en/watch-collections/pilot-s-watch/iw377709-pilots-watch-chronograph.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          IWC Pilot’s Watch Chronograph IW377709
+        </a>
+        <a href="https://www.tagheuer.com/en-us/watches/formula-1/CAZ101AL.BA0842" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          TAG Heuer Formula 1 Chronograph CAZ101AL.BA0842
+        </a>
+        <a href="https://www.omegawatches.com/watch-omega-seamaster-300-co-axial-master-chronometer-42-mm-21092422001001" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Omega Seamaster Diver 300 M “007” Edition
+        </a>
+        <a href="https://www.seikowatches.com/global-en/products/prospex/snr033j1" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Seiko Prospex LX GMT Diver SNR033J1
+        </a>
+        <a href="https://www.breguet.com/us/timepieces/classique/classique-5177BB-0-0-0.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Breguet Classique 5177BB/0/0/0
+        </a>
+        <a href="https://www.junghans.de/en/products/watches/meister/meister-classic/027-3501-00.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Junghans Meister Classic Automatic 027/3501.00
+        </a>
+        <a href="https://en.seagullwatch.com/watchDetail/id24.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Sea-Gull 1963 Air-Force Chronograph
+        </a>
+        <a href="https://nomos-glashuette.com/en/club-neomatik-night-blue" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          NOMOS Club Neomatik “Night Blue”
+        </a>
+        <a href="https://www.jaeger-lecoultre.com/us/en/watches/master/master-ultra-thin-moon-Q1362504.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Jaeger-LeCoultre Master Ultra Thin Moon Q1362504
+        </a>
+        <a href="https://www.cartier.com/en-us/collections/watches/classics/tank/tank-louis-cartier/WSTA0056.html" target="_blank" rel="noopener" class="text-blue-600 hover:underline">
+          Cartier Tank Louis Cartier WSTA0056
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer bg-gray-800 text-gray-300 py-8 mt-12">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Time Refined. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
